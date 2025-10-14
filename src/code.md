@@ -14,16 +14,6 @@ The aioresonate library provides a Python implementation of the Resonate protoco
 
 See [the GitHub repository](https://github.com/Resonate-Protocol/aioresonate) for documentation, source code, and examples.
 
-### Music Assistant Integration
-
-Music Assistant includes native support for the Resonate protocol, enabling synchronized music playback across multiple devices.
-
-See [the Music Assistant GitHub repository](TODO: Add Music Assistant GitHub URL) for more information about the integration.
-
-## Example Projects
-
-TODO: Add example projects and implementations using the Resonate protocol.
-
 ## Contributing
 
 The Resonate protocol is open source and welcomes contributions. Visit the [Resonate Protocol GitHub organization](https://github.com/Resonate-Protocol) to get involved.

@@ -6,7 +6,7 @@ description: Technical specification for the Resonate music experience protocol.
 
 # TO BE DONE
 
-The Resonate protocol specification is currently under development.
+The Resonate protocol specification is currently [under development](https://github.com/resonate-protocol/spec).
 
 This page will contain:
 - Protocol overview and architecture
@@ -15,4 +15,4 @@ This page will contain:
 - Implementation guidelines
 - Security considerations
 
-Check back soon for updates, or view the implementation at [https://github.com/Resonate-Protocol/aioresonate](https://github.com/Resonate-Protocol/aioresonate).
+Check back soon for updates.
