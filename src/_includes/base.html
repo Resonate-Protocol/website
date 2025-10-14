@@ -1,0 +1,80 @@
+---
+menu:
+  - - /
+    - Home
+  - - /spec/
+    - Spec
+  - - /code/
+    - Code
+---
+
+{% comment %}
+<!-- prettier-ignore -->
+{% endcomment %}
+{% capture full_title -%}
+{%- if title -%}
+{{ title }} – Resonate Protocol
+{%- else -%}
+Resonate: Music Experience Protocol
+{%- endif -%}
+{%- endcapture %}
+{% comment %}
+<!-- prettier-unignore -->
+{% endcomment %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link href="/style.css" rel="stylesheet" />
+    <title>{{ full_title }}</title>
+    <link rel="icon" href="/images/resonate-favicon.png" type="image/png" />
+    <meta name="description" content="{{ description }}" />
+    <meta name="viewport" content="width=device-width" />
+    <meta property="og:title" content="{{ full_title }}" />
+    <meta property="og:site_name" content="Resonate Protocol" />
+    <meta
+      property="og:url"
+      content="https://resonate-protocol.github.io/resonate-website{{ page.url }}"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="{{ description }}" />
+    <meta
+      property="og:image"
+      content="https://resonate-protocol.github.io/resonate-website/images/social.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{ full_title }}" />
+    <meta name="twitter:description" content="{{ description }}" />
+    <meta
+      name="twitter:image"
+      content="https://resonate-protocol.github.io/resonate-website/images/social.png"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <a href="/"><h1>Resonate</h1></a>
+        <ul>
+          {% for item in menu %}
+          <li>
+            <a
+              class="{% if page.url == item[0] %}active{% endif %}"
+              href="{{ item[0] }}"
+              >{{ item[1] }}</a
+            >
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="content">{{ content }}</div>
+
+      <div class="footer">
+        <div>
+          Resonate Protocol &nbsp; – &nbsp;
+          <a href="https://www.github.com/Resonate-Protocol">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

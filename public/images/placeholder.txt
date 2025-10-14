@@ -1,0 +1,6 @@
+TODO: Add Resonate logo and favicon images here.
+
+Required images:
+- resonate-logo.svg (or .png) - Main logo for header
+- resonate-favicon.png - Favicon for browser tab
+- social.png - Social media preview image

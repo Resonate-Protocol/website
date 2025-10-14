@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "test": "true"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "serve": "^14.2.0"
+  }
+}
