@@ -6,6 +6,6 @@ module.exports = function (eleventyConfig) {
       input: "src",
       output: "dist",
     },
-    pathPrefix: "/website/",
+    pathPrefix: process.env.NODE_ENV === "production" ? "/website/" : "/",
   };
 };

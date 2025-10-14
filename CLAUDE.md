@@ -1,0 +1,4 @@
+- Site built with Eleventy 2.0.1
+- Deploys automatically via GitHub Actions when pushed to main
+- Local development: `./script/develop` (runs on port 5005)
+- Production build: `./script/build`

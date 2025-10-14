@@ -49,3 +49,7 @@
 - [ ] Review and update meta descriptions for all pages
 - [ ] Add keywords meta tags (if needed)
 - [ ] Update OpenGraph URLs once domain is finalized
+
+### Deployment
+
+- [ ] Once we have a domain name for deployment, remove all notion of a base URL
