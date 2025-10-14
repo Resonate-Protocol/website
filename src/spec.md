@@ -4,8 +4,6 @@ title: Resonate Protocol Specification
 description: Technical specification for the Resonate music experience protocol.
 ---
 
-# TO BE DONE
-
 The Resonate protocol specification is currently [under development](https://github.com/resonate-protocol/spec).
 
 This page will contain:
