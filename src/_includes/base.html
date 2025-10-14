@@ -25,41 +25,41 @@ Resonate: Music Experience Protocol
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link href="/style.css" rel="stylesheet" />
+    <link href="{{ '/style.css' | url }}" rel="stylesheet" />
     <title>{{ full_title }}</title>
-    <link rel="icon" href="/images/resonate-favicon.png" type="image/png" />
+    <link rel="icon" href="{{ '/images/resonate-favicon.png' | url }}" type="image/png" />
     <meta name="description" content="{{ description }}" />
     <meta name="viewport" content="width=device-width" />
     <meta property="og:title" content="{{ full_title }}" />
     <meta property="og:site_name" content="Resonate Protocol" />
     <meta
       property="og:url"
-      content="https://resonate-protocol.github.io/resonate-website{{ page.url }}"
+      content="https://resonate-protocol.github.io{{ page.url | url }}"
     />
     <meta property="og:type" content="website" />
     <meta property="og:description" content="{{ description }}" />
     <meta
       property="og:image"
-      content="https://resonate-protocol.github.io/resonate-website/images/social.png"
+      content="https://resonate-protocol.github.io{{ '/images/social.png' | url }}"
     />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="{{ full_title }}" />
     <meta name="twitter:description" content="{{ description }}" />
     <meta
       name="twitter:image"
-      content="https://resonate-protocol.github.io/resonate-website/images/social.png"
+      content="https://resonate-protocol.github.io{{ '/images/social.png' | url }}"
     />
   </head>
   <body>
     <div class="container">
       <div class="header">
-        <a href="/"><h1>Resonate</h1></a>
+        <a href="{{ '/' | url }}"><h1>Resonate</h1></a>
         <ul>
           {% for item in menu %}
           <li>
             <a
               class="{% if page.url == item[0] %}active{% endif %}"
-              href="{{ item[0] }}"
+              href="{{ item[0] | url }}"
               >{{ item[1] }}</a
             >
           </li>
