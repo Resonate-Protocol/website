@@ -14,6 +14,12 @@ The aioresonate library provides a Python implementation of the Resonate protoco
 
 See [the GitHub repository](https://github.com/Resonate-Protocol/aioresonate) for documentation, source code, and examples.
 
+### resonate-go - Go Library
+
+The resonate-go library provides a Go implementation of the Resonate protocol, enabling developers to build synchronized music experiences in Go applications. It includes both a server and player implementation.
+
+See [the GitHub repository](https://github.com/harperreed/resonate-go) for documentation, source code, and examples.
+
 ## Contributing
 
 The Resonate protocol is open source and welcomes contributions. Visit the [Resonate Protocol GitHub organization](https://github.com/Resonate-Protocol) to get involved.
